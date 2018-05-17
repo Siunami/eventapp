@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import AttestButtonContainer from './../../user/ui/attestbutton/AttestButtonContainer'
+import AttestComponent from './../../user/ui/attestbutton/AttestComponent'
 
 class Home extends Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends Component {
           <div className="pure-u-1-1">
             <h1>Good to Go!</h1>
             <p>Your Truffle Box is installed and ready.</p>
-            <AttestButtonContainer/>
+            <AttestComponent/>
             <h2>UPort Authentication</h2>
             <p>This particular box comes with UPort autentication built-in.</p>
             <p>NOTE: To interact with your smart contracts through UPort's web3 instance, make sure they're deployed to the Ropsten testnet.</p>
